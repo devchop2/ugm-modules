@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-05-02",
+  "modules": [
+    {
+      "id": "hello-ugm",
+      "displayName": "Hello UGM (Dummy)",
+      "version": "0.1.0",
+      "description": "UGM E2E 검증용 더미 모듈. 임포트하면 GameObject에 붙여서 PlayMode 진입 시 'Hello UGM' 로그를 찍는 MonoBehaviour 한 개가 추가됩니다.",
+      "path": "modules/HelloUGM",
+      "files": [
+        "Scripts/HelloUGM.cs"
+      ],
+      "dependencies": [],
+      "sdks": []
+    }
+  ]
+}
