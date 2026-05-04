@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UGM.Modules.HelloUGM
+namespace ChopChopGames.UGM.HelloUGM
 {
     /// <summary>
     /// UGM E2E 검증용 더미 컴포넌트.

@@ -1,18 +1,26 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-05-02",
+  "schemaVersion": 2,
+  "updatedAt": "2026-05-03",
   "modules": [
     {
-      "id": "hello-ugm",
-      "displayName": "Hello UGM (Dummy)",
+      "id": "hellougm",
+      "name": "com.chopchopgames.ugm.hellougm",
+      "displayName": "Hello UGM",
       "version": "0.1.0",
-      "description": "UGM E2E 검증용 더미 모듈. 임포트하면 GameObject에 붙여서 PlayMode 진입 시 'Hello UGM' 로그를 찍는 MonoBehaviour 한 개가 추가됩니다.",
-      "path": "modules/HelloUGM",
-      "files": [
-        "Scripts/HelloUGM.cs"
-      ],
+      "description": "UGM E2E 검증용 더미 모듈. 씬에 HelloUGM 컴포넌트를 붙여 PlayMode 진입하면 콘솔에 'Hello UGM' 로그를 출력. UGM 카탈로그 → 설치 흐름의 정상 작동을 가장 빠르게 확인하는 용도.",
+      "downloadUrl": "https://github.com/devchop2/ugm-modules/releases/download/hellougm%2Fv0.1.0/hellougm-0.1.0.zip",
       "dependencies": [],
-      "sdks": []
+      "documentationUrl": "https://github.com/devchop2/ugm-modules/tree/main/Packages/com.chopchopgames.ugm.hellougm"
+    },
+    {
+      "id": "googlesheettable",
+      "name": "com.chopchopgames.ugm.googlesheettable",
+      "displayName": "Google Sheet Table",
+      "version": "0.1.0",
+      "description": "구글 시트 데이터를 TableAsset으로 캐싱하고 런타임에 강타입(List/Dictionary/DictionaryOfList)으로 파싱·접근하는 모듈. AccessorGenerator가 사용자 Row 타입 기반 강타입 액세서를 자동 생성.",
+      "downloadUrl": "https://github.com/devchop2/ugm-modules/releases/download/googlesheettable%2Fv0.1.0/googlesheettable-0.1.0.zip",
+      "dependencies": [],
+      "documentationUrl": "https://github.com/devchop2/ugm-modules/tree/main/Packages/com.chopchopgames.ugm.googlesheettable"
     }
   ]
 }

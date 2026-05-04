@@ -1,0 +1,53 @@
+# Unity 표준 ignore — github/gitignore Unity.gitignore 기반
+
+# ===== Unity 자동 생성 폴더 =====
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ===== Asset meta data가 필요한 파일들 (예외 없이 ignore) =====
+sysinfo.txt
+
+# ===== 빌드 산출물 =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# ===== Visual Studio / Rider 자동 생성 =====
+.vs/
+.idea/
+.vsconfig
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+
+# ===== Mac =====
+.DS_Store
+
+# ===== Windows =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== UGM 작업 임시 =====
+# (빈 슬롯 — 향후 필요시)
