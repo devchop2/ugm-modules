@@ -3,6 +3,16 @@
   "updatedAt": "2026-05-03",
   "modules": [
     {
+      "id": "utility",
+      "name": "com.chopchopgames.ugm.utility",
+      "displayName": "UGM Utility",
+      "version": "0.1.0",
+      "description": "UGM 모듈들이 공통으로 쓰는 유틸 — Logger, EventBus, ObjectPool, Singleton(Mono), CoroutineRunner, AESCipher, SaveLoad. 다른 UGM 모듈의 dependencies에 선언됨.",
+      "downloadUrl": "https://github.com/devchop2/ugm-mod-utility/releases/download/v0.1.0/utility-0.1.0.zip",
+      "dependencies": [],
+      "documentationUrl": "https://github.com/devchop2/ugm-mod-utility"
+    },
+    {
       "id": "hellougm",
       "name": "com.chopchopgames.ugm.hellougm",
       "displayName": "Hello UGM",
