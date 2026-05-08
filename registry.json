@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-05-03",
+  "updatedAt": "2026-05-08",
   "modules": [
     {
       "id": "utility",
@@ -8,6 +8,7 @@
       "displayName": "UGM Utility",
       "version": "0.1.0",
       "description": "UGM 모듈들이 공통으로 쓰는 유틸 — Logger, EventBus, ObjectPool, Singleton(Mono), CoroutineRunner, AESCipher, SaveLoad. 다른 UGM 모듈의 dependencies에 선언됨.",
+      "gitUrl": "https://github.com/devchop2/ugm-mod-utility.git",
       "downloadUrl": "https://github.com/devchop2/ugm-mod-utility/releases/download/v0.1.0/utility-0.1.0.zip",
       "dependencies": [],
       "documentationUrl": "https://github.com/devchop2/ugm-mod-utility"
@@ -18,6 +19,7 @@
       "displayName": "Hello UGM",
       "version": "0.1.0",
       "description": "UGM E2E 검증용 더미 모듈. 씬에 HelloUGM 컴포넌트를 붙여 PlayMode 진입하면 콘솔에 'Hello UGM' 로그를 출력. UGM 카탈로그 → 설치 흐름의 정상 작동을 가장 빠르게 확인하는 용도.",
+      "gitUrl": "https://github.com/devchop2/ugm-mod-hellougm.git",
       "downloadUrl": "https://github.com/devchop2/ugm-mod-hellougm/releases/download/v0.1.0/hellougm-0.1.0.zip",
       "dependencies": [],
       "documentationUrl": "https://github.com/devchop2/ugm-mod-hellougm"
@@ -26,8 +28,9 @@
       "id": "googlesheettable",
       "name": "com.chopchopgames.ugm.googlesheettable",
       "displayName": "Google Sheet Table",
-      "version": "0.1.0",
-      "description": "구글 시트 데이터를 TableAsset으로 캐싱하고 런타임에 강타입(List/Dictionary/DictionaryOfList)으로 파싱·접근하는 모듈. AccessorGenerator가 사용자 Row 타입 기반 강타입 액세서를 자동 생성.",
+      "version": "0.1.1",
+      "description": "구글 시트 데이터를 TableAsset으로 캐싱하고 런타임에 강타입(List/Dictionary/DictionaryOfList)으로 파싱·접근하는 모듈. AccessorGenerator가 사용자 Row 타입 기반 강타입 액세서를 자동 생성. v0.1.1: 개별 reload, headerRow 설정, cachedAsset 자동 복구, 검색/정렬.",
+      "gitUrl": "https://github.com/devchop2/ugm-mod-googlesheettable.git",
       "downloadUrl": "https://github.com/devchop2/ugm-mod-googlesheettable/releases/download/v0.1.0/googlesheettable-0.1.0.zip",
       "dependencies": [],
       "documentationUrl": "https://github.com/devchop2/ugm-mod-googlesheettable"
